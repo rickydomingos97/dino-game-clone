@@ -29,6 +29,12 @@ body {
     font-weight: 700;
 }
 
+.header {
+    text-align: start;
+    color: #666666;
+    font-weight: 100;
+}
+
 @keyframes slideright {
     from {
         background-position: 70000%;
