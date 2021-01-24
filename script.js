@@ -68,7 +68,8 @@ function createCactus() {
         } else if (cactusPosition > 0 && cactusPosition < 60 && position < 60) {
             // GAME OVER ======
             clearInterval(leftInterval);
-            document.body.innerHTML = '<h1 class="game-over">Oops! Dont be sad. You can try again.</h1>';
+            /* document.body.innerHTML = '<h1 class="game-over">Oops! Dont be sad. You can try again.</h1>'; */
+            document.body.innerHTML = '<h1 class="game-over">Oops! Dont be sad. You can try again.</h1><p class="again">To Play again plese reload the page.</p><br>'
         } else {
             cactusPosition -= 10;
             cactus.style.left = cactusPosition + 'px';

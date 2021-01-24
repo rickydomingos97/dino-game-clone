@@ -27,13 +27,13 @@ body {
     color: #666666;
     margin-top: 15rem;
     font-weight: 700;
+    font-size: 38px;
 }
 
-.header {
-    text-align: start;
+.again {
+    text-align: center;
     color: #666666;
-    font-weight: 100;
-}
+    margin-top: 15rem;
 
 @keyframes slideright {
     from {
