@@ -35,7 +35,7 @@ function jump() {
                     dino.style.bottom = position + 'px';
                 }
 
-            }, 20)
+            }, 30)
         } else {
             //subindo
             position += 20 // position = position + 20
@@ -68,7 +68,7 @@ function createCactus() {
         } else if (cactusPosition > 0 && cactusPosition < 60 && position < 60) {
             // GAME OVER ======
             clearInterval(leftInterval);
-            document.body.innerHTML = '<h1 class="game-over">GAME OVER</h1>'
+            document.body.innerHTML = '<h1 class="game-over">Oops! Dont be sad. You can try again.</h1>';
         } else {
             cactusPosition -= 10;
             cactus.style.left = cactusPosition + 'px';
